@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <h1 class="logo" style="color: RED;">Eat and Treat</h1>
+          <ul class="nav-links">
+            <li><a href="#Home" data-after="Home">Home</a></li>
+            <li><a href="#Aboutus" data-after="About Us">About Us</a></li>
+            <li><a href="#Ourmenu" data-after="Our Menu">Our Menu</a></li>
+            <li><a href="#Ordernow" data-after="Order Now">Order Now</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="Home">
+        <div class="container">
+          <h2>Welcome To Eat and Treat </h2>
+          <p>Experience The Finest Bakery In Town</p>
+          <a href="#" class="btn">Make An Order</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="Aboutus">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut
+          risus feugiat, efficitur metus vel, venenatis sapien.
+        </p>
+        <p>
+          Praesent tristique urna a est ultrices lobortis. Suspendisse vel nisl
+          et lorem efficitur commodo. Sed volutpat augue in dapibus elementum.
+        </p>
+      </div>
+    </section>
+    <div id="Ourmenu">
+    <section class="menu-section">
+      <div class="container">
+        <h2>Our Menu</h2>
+        <div class="menu-item" style="height: 540px;">
+          <div class="row">
+            <div class="col-md-6">
+          
+              <div id="div1" class="card" style="width: 18rem;">
+               <img src="sweets.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                 <h5 class="card-title">Sweets</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+            </div>
+             <div class="col-md-6">
+               <div id="div2" class="card" style="width: 18rem;">
+                 <img src="ice.jpeg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">Ice Cream</h5>
+                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   <a href="#" class="btn btn-primary">Order Now</a>
+                 </div>
+                </div>
+              </div>
+          <div class="col-md-6">
+            <div id="div3" class="card" style="width: 18rem;">
+              <img src="puff.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Puffs</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+         
+          
+        </div>
+      </div>
+    
+    </section>
+
+    <section id="Ordernow">
+      <div class="container">
+        <h2>Make an Order</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+          <div class="form-group">
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required />
+          </div>
+          <div class="form-group">
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required />
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container" style="height: 60px;">
+        <p>Copyright &copy; 2023 Restaurant Name. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
